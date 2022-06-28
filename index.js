@@ -52,7 +52,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 
       const data = JSON.parse(result);
       const username = data.User.Username;
-      const username = data.User.Account.Created;
+      const username = data.User.Created;
       const country = data.User.Country;
       const tokenPass = data.User.BattlePass.PassTokens;
       const exp = data.User.Experience;
@@ -61,7 +61,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 
       console.log(`\r
 ♨  [${moment().format('HH:mm:ss')}]
-    ${(`Account created : ${accountcreated}`)}
+    ${(`Created date : ${created}`)}
 →  ${(`Country : ${country}`)}
 →  ${(`Username : ${username}`)}
 →  ${(`Pas Star : ${tokenPass}`)}
