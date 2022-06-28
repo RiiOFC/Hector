@@ -60,12 +60,12 @@ By : ${chalk.bold('Vicenzo#3819')}
 
       console.log(`\r
 ♨  [${moment().format('HH:mm:ss')}]  -
-→  ${(`Negara By Vicenzo : ${country}`)}
-→  ${(`Nama By Vicenzo : ${username}`)}
-→  ${(`Pass Star By Vicenzo : ${tokenPass}`)}
-→  ${(`Exp By Vicenzo: ${exp}`)}  
-→  ${(`Tropy By Vicenzo : ${trophy}`)}  
-→  ${(`Crown By Vicenzo : ${crown}`)}
+→  ${(`Country : ${country}`)}
+→  ${(`Username : ${username}`)}
+→  ${(`Pass Star : ${tokenPass}`)}
+→  ${(`Exp : ${exp}`)}  
+→  ${(`Tropy : ${trophy}`)}  
+→  ${(`Crown : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`);
       await sleep(2500);
 
