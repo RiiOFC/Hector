@@ -58,7 +58,7 @@ By : ${chalk.bold('Vicenzo#3819')}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalk.bgCyan(`\r
+      console.log(`\r
 ♨  [${moment().format('HH:mm:ss')}]  -
 →  ${(`Negara By Vicenzo : ${country}`)}
 →  ${(`Nama By Vicenzo : ${username}`)}
@@ -67,7 +67,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 →  ${(`Tropy By Vicenzo : ${trophy}`)}  
 →  ${(`Crown By Vicenzo : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`));
-      await sleep(6500);
+      await sleep(2700);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
