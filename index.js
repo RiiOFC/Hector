@@ -60,12 +60,12 @@ By : ${chalk.bold('Vicenzo#3819')}
 
       console.log(`\r
 ♨  [${moment().format('HH:mm:ss')}]  -
-→  ${(`Country By HectorV2 : ${country}`)}
-→  ${(`Username By HectorV2 : ${username}`)}
-→  ${(`Pass Star By HectorV2 : ${tokenPass}`)}
-→  ${(`Exp By HectorV2 : ${exp}`)}  
-→  ${(`Tropy By HectorV2 : ${trophy}`)}  
-→  ${(`Crown By HectorV2 : ${crown}`)}
+→  ${(`Country : ${country}`)}
+→  ${(`Username : ${username}`)}
+→  ${(`Pas Star : ${tokenPass}`)}
+→  ${(`Exp Acc : ${exp}`)}  
+→  ${(`Tropy : ${trophy}`)}  
+→  ${(`Crown : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`);
       await sleep(2500);
 
