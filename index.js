@@ -67,7 +67,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 →  ${(`Tropy : ${trophy}`)}  
 →  ${(`Crown : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`);
-      await sleep(2500);
+      await sleep(2400);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
