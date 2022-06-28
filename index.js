@@ -62,7 +62,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 ♨  [${moment().format('HH:mm:ss')}]  -
 →  ${chalk.bgGrey(`Negara By Vicenzo : ${country}`)}
 →  ${chalk.bgWhite(`Nama By Vicenzo : ${username}`)}
-→  ${chalk.bgGold(`Pass Star By Vicenzo : ${tokenPass}`)}
+→  ${chalk.bgCyan(`Pass Star By Vicenzo : ${tokenPass}`)}
 →  ${chalk.bgCyan(`Exp By Vicenzo: ${exp}`)}  
 →  ${chalk.bgYellow(`Tropy By Vicenzo : ${trophy}`)}  
 →  ${chalk.bgPink(`Crown By Vicenzo : ${crown}`)}
