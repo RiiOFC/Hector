@@ -61,7 +61,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 
       console.log(`\r
 ♨  [${moment().format('HH:mm:ss')}]
-    ${(`Created date : ${created}`)}
+    ${(`Account created : ${created}`)}
 →  ${(`Country : ${country}`)}
 →  ${(`Username : ${username}`)}
 →  ${(`Pas Star : ${tokenPass}`)}
