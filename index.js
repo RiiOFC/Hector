@@ -60,13 +60,13 @@ By : ${chalk.bold('Vicenzo#3819')}
 
       console.log(`\r
 ♨  [${moment().format('HH:mm:ss')}]  -
-→  ${chalk.bgGrey(`Negara By Vicenzo : ${country}`)}
-→  ${chalk.bgWhite(`Nama By Vicenzo : ${username}`)}
-→  ${chalk.bgCyan(`Pass Star By Vicenzo : ${tokenPass}`)}
-→  ${chalk.bgCyan(`Exp By Vicenzo: ${exp}`)}  
-→  ${chalk.bgYellow(`Tropy By Vicenzo : ${trophy}`)}  
-→  ${chalk.bgPink(`Crown By Vicenzo : ${crown}`)}
-→  ${chalk.bgGreen(`Status : ✔ Success`)}`);
+→  ${(`Negara By Vicenzo : ${country}`)}
+→  ${(`Nama By Vicenzo : ${username}`)}
+→  ${(`Pass Star By Vicenzo : ${tokenPass}`)}
+→  ${(`Exp By Vicenzo: ${exp}`)}  
+→  ${(`Tropy By Vicenzo : ${trophy}`)}  
+→  ${(`Crown By Vicenzo : ${crown}`)}
+→  ${(`Status : ✔ Success`)}`);
       await sleep(2500);
 
     } else if (result == 'BANNED') {
