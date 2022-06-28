@@ -52,6 +52,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 
       const data = JSON.parse(result);
       const username = data.User.Username;
+      const username = data.User.Account.Created;
       const country = data.User.Country;
       const tokenPass = data.User.BattlePass.PassTokens;
       const exp = data.User.Experience;
@@ -59,7 +60,8 @@ By : ${chalk.bold('Vicenzo#3819')}
       const crown = data.User.Crowns;
 
       console.log(`\r
-♨  [${moment().format('HH:mm:ss')}]  -
+♨  [${moment().format('HH:mm:ss')}]
+    ${(`Account created : ${accountcreated}`)}
 →  ${(`Country : ${country}`)}
 →  ${(`Username : ${username}`)}
 →  ${(`Pas Star : ${tokenPass}`)}
@@ -67,7 +69,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 →  ${(`Tropy : ${trophy}`)}  
 →  ${(`Crown : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`);
-      await sleep(2400);
+      await sleep(5000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
