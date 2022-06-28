@@ -66,7 +66,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 →  ${(`Exp By Vicenzo: ${exp}`)}  
 →  ${(`Tropy By Vicenzo : ${trophy}`)}  
 →  ${(`Crown By Vicenzo : ${crown}`)}
-→  ${(`Status : ✔ Success`)}`));
+→  ${(`Status : ✔ Success`)}`);
       await sleep(2700);
 
     } else if (result == 'BANNED') {
