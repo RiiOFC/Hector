@@ -63,7 +63,7 @@ By : ${chalk.bold('Vicenzo#3819')}
 →  ${(`Country : ${country}`)}
 →  ${(`Username : ${username}`)}
 →  ${(`Pas Star : ${tokenPass}`)}
-→  ${(`Exp Acc : ${exp}`)}  
+→  ${(`Exp Level : ${exp}`)}  
 →  ${(`Tropy : ${trophy}`)}  
 →  ${(`Crown : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`);
