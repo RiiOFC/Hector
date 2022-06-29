@@ -27,7 +27,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(chalk.GreyBright(`
+  console.log(`
 ██╗  ██╗███████╗ ██████╗████████╗ ██████╗ ██████╗ 
 ██║  ██║██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
 ███████║█████╗  ██║        ██║   ██║   ██║██████╔╝
@@ -41,8 +41,8 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
                 ╚██╗ ██╔╝██╔═══╝                  
                  ╚████╔╝ ███████╗ 
                   ╚═══╝  ╚══════╝                                                                                                                                           
-By : ${chalk.bold('Vicenzo#3819')}
-`));
+By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
+`);
 
   const auth = rs.question(chalk.blueBright('Enter Auth Token : '));
   console.log(chalk.blueBright('STARTING'));
