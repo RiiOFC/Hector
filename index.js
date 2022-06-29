@@ -41,7 +41,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
                 ╚██╗ ██╔╝██╔═══╝                  
                  ╚████╔╝ ███████╗ 
                   ╚═══╝  ╚══════╝                                                                                                                                           
-${chalk.bold(chalk.redBright('By'))} : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
+${chalk.bold(chalk.redBright('By'))} : ${chalk.bold(chalk.redBright('HectorV2'))}
 ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 `);
 
@@ -67,13 +67,13 @@ ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 
       console.log(chalk.blueBright(chalk.bold(`\r
 ♨  [${moment().format('HH:mm:ss')}] ♨
-→  ${(`Username : ${username}`)}
-→  ${(`Country : ${country}`)}
-→  ${(`Pass Star : ${tokenPass}`)}
-→  ${(`Exp Level : ${exp}`)}  
-→  ${(`Tropy : ${trophy}`)}  
-→  ${(`Crown : ${crown}`)}
-→  ${(`Status : ✔ Success`)}`)));
+→ ${(`Username : ${username}`)}
+→ ${(`Country : ${country}`)}
+→ ${(`Pass Star : ${tokenPass}`)}
+→ ${(`Exp Level : ${exp}`)}  
+→ ${(`Tropy : ${trophy}`)}  
+→ ${(`Crown : ${crown}`)}
+→ ${(`Status : ✔ Success`)}`)));
       await sleep(2700);
 
     } else if (result == 'BANNED') {
