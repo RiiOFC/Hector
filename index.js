@@ -44,8 +44,8 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 By : ${chalk.bold('Vicenzo#3819')}
 `);
 
-  const auth = rs.question(chalk.bold('Enter Auth Token : '));
-  console.log('');
+  const auth = rs.question(chalk.blueBright('Enter Auth Token : '));
+  console.log(chalk.blueBright('STARTING'));
 
   while (true) {
 
@@ -53,7 +53,7 @@ By : ${chalk.bold('Vicenzo#3819')}
     if (!result) {
 
       console.log(chalk.bgRed(`\r[ ${moment().format('HH:mm:ss')} ] Auth Sudah Expired !`));
-      Break
+      Break;
 
     } else if (result.includes('User')) {
 
@@ -65,16 +65,16 @@ By : ${chalk.bold('Vicenzo#3819')}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(`\r
+      console.log(chalk.green(`\r
 ♨  [${moment().format('HH:mm:ss')}]
-→  ${(`Country : ${country}`)}
 →  ${(`Username : ${username}`)}
+→  ${(`Country : ${country}`)}
 →  ${(`Pass Star : ${tokenPass}`)}
 →  ${(`Exp Level : ${exp}`)}  
 →  ${(`Tropy : ${trophy}`)}  
 →  ${(`Crown : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`);
-      await sleep(5000);
+      await sleep(4500));
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
