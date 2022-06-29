@@ -44,8 +44,8 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
 `);
 
-  const auth = rs.question(chalk.blueBright('Enter Auth Token : '));
-  console.log(chalk.blueBright('STARTING'));
+  const auth = rs.question(chalk.blueBright(chalk.bold('Enter Auth Token : ')));
+  console.log(chalk.blueBright(chalk.bold('STARTING')));
 
   while (true) {
 
@@ -65,8 +65,8 @@ By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalk.green(`\r
-♨  [${moment().format('HH:mm:ss')}]
+      console.log(chalk.greenBright(`\r
+♨  [${moment().format('HH:mm:ss')}] ♨
 →  ${(`Username : ${username}`)}
 →  ${(`Country : ${country}`)}
 →  ${(`Pass Star : ${tokenPass}`)}
@@ -74,7 +74,9 @@ By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
 →  ${(`Tropy : ${trophy}`)}  
 →  ${(`Crown : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`));
-      await sleep(4500);
+      await sleep(6500);
+
+      console.log(chalk.redBright(`\r[ ${moment().format('HH:mm:ss')} ] NOTE : JIKA ANDA MENGALAMI STUCK MAKA BANTINGLAH HP ANDA`));
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
