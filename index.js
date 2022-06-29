@@ -39,7 +39,7 @@ ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 `));
 
   const auth = rs.question(chalk.blueBright(chalk.bold('Enter Auth Token : ')));
-  console.log(chalk.blueBright(chalk.bold('STARTING')));
+  console.log(chalk.greenBright(chalk.bold('STARTING....')));
 
   while (true) {
 
@@ -67,7 +67,7 @@ ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 → ${(`Tropy : ${trophy}`)}  
 → ${(`Crown : ${crown}`)}
 → ${(`Status : ✔ Success`)}`)));
-      await sleep(2700);
+      await sleep(5000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
