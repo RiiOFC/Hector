@@ -28,14 +28,14 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(chalk.yellowBright(`
-██╗  ██╗███████╗ ██████╗████████╗ ██████╗ ██████╗                                                 
+██╗  ██╗███████╗ ██████╗████████╗ ██████╗ ██████╗
 ██║  ██║██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
 ███████║█████╗  ██║        ██║   ██║   ██║██████╔╝
 ██╔══██║██╔══╝  ██║        ██║   ██║   ██║██╔══██╗
 ██║  ██║███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
-╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝                                                                                                                                           
-${chalk.bold(chalk.redBright('Made by'))} : ${chalk.bold(chalk.redBright('HectorV2'))};
-${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))};
+╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+${chalk.bold(chalk.redBright('Made by :'))} ${chalk.bold(chalk.redBright('HectorV2'))}
+${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 `));
 
   const auth = rs.question(chalk.blueBright(chalk.bold('Enter Auth Token : ')));
