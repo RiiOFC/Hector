@@ -13,7 +13,6 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
     method: 'GET',
     headers: {
       'authorization':auth
-       'Accept-Encoding': "gzip",
        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64))",
     }
   })
