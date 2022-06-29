@@ -65,18 +65,18 @@ By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalk.greenBright(`\r
+      console.log(chalk.blueBright(chalk.bold(`\r
 ♨  [${moment().format('HH:mm:ss')}] ♨
-🍀  ${(`Username : ${username}`)}
-🍀  ${(`Country : ${country}`)}
-🍀  ${(`Pass Star : ${tokenPass}`)}
-🍀  ${(`Exp Level : ${exp}`)}  
-🍀  ${(`Tropy : ${trophy}`)}  
-🍀  ${(`Crown : ${crown}`)}
+→  ${(`Username : ${username}`)}
+→  ${(`Country : ${country}`)}
+→  ${(`Pass Star : ${tokenPass}`)}
+→  ${(`Exp Level : ${exp}`)}  
+→  ${(`Tropy : ${trophy}`)}  
+→  ${(`Crown : ${crown}`)}
 →  ${(`Status : ✔ Success`)}`));
       await sleep(6500);
 
-      console.log(chalk.redBright(`JIKA ANDA MENGALAMI STUCK MAKA BANTINGLAH HP ANDA`));
+      console.log(chalk.redBright(chalk.bold(`JIKA ANDA MENGALAMI STUCK MAKA BANTINGLAH HP ANDA`)));
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
