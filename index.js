@@ -76,8 +76,6 @@ By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
 →  ${(`Status : ✔ Success`)}`)));
       await sleep(2700);
 
-      console.log(chalk.redBright(chalk.bold(`JIKA ANDA MENGALAMI STUCK MAKA BANTINGLAH HP ANDA`)));
-
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
       break;
