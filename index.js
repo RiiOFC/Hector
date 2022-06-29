@@ -73,8 +73,8 @@ By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
 →  ${(`Exp Level : ${exp}`)}  
 →  ${(`Tropy : ${trophy}`)}  
 →  ${(`Crown : ${crown}`)}
-→  ${(`Status : ✔ Success`)}`));
-      await sleep(6500);
+→  ${(`Status : ✔ Success`)}`)));
+      await sleep(2700);
 
       console.log(chalk.redBright(chalk.bold(`JIKA ANDA MENGALAMI STUCK MAKA BANTINGLAH HP ANDA`)));
 
