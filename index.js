@@ -13,7 +13,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
     method: 'GET',
     headers: {
       'authorization':auth
-       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64))",
+       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64))',
     }
   })
     .then(res => res.text())
