@@ -53,7 +53,6 @@ By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
     if (!result) {
 
       console.log(chalk.bgRed(`\r[ ${moment().format('HH:mm:ss')} ] Auth Sudah Expired !`));
-      Break;
 
     } else if (result.includes('User')) {
 
