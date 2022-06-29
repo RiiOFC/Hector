@@ -41,7 +41,8 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
                 ╚██╗ ██╔╝██╔═══╝                  
                  ╚████╔╝ ███████╗ 
                   ╚═══╝  ╚══════╝                                                                                                                                           
-By : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
+${chalk.bold(chalk.redBright('By'))} : ${chalk.bold(chalk.redBright('Vicenzo#3819'))}
+${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 `);
 
   const auth = rs.question(chalk.blueBright(chalk.bold('Enter Auth Token : ')));
