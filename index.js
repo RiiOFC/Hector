@@ -69,7 +69,7 @@ ${chalk.bold(chalk.redBright('Wa : 085706058445'))}
 → ${(`Crown : ${crown}`)}
 → ${(`Status : ✔ Success`)}`)));
       await sleep(5000);
-      console.log(chalk.YellowBright(chalk.bold(`Orang Sabar Disayang Tuhan`));
+      console.log(chalk.YellowBright(chalk.bold(`Orang Sabar Disayang Tuhan`)));
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
