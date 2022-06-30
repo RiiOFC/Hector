@@ -27,7 +27,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(chalk.yellowBright(chalk.bold(`By : Vicenzo 
+  console.log(chalk.yellowBright(chalk.bold(`                                          By : Vicenzo 
 ██╗  ██╗███████╗ ██████╗████████╗ ██████╗ ██████╗
 ██║  ██║██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
 ███████║█████╗  ██║        ██║   ██║   ██║██████╔╝
