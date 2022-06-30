@@ -34,8 +34,9 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 ██╔══██║██╔══╝  ██║        ██║   ██║   ██║██╔══██╗
 ██║  ██║███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
 ╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
-${chalk.bold(chalk.redBright('Made by :'))} ${chalk.bold(chalk.redBright('HectorV2'))}
+${chalk.bold(chalk.redBright('Made by : HectorV2'))}
 ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
+${chalk.bold(chalk.redBright('Wa : 085706058445'))}
 `));
 
   const auth = rs.question(chalk.blueBright(chalk.bold('Enter Auth Token : ')));
@@ -68,6 +69,7 @@ ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 → ${(`Crown : ${crown}`)}
 → ${(`Status : ✔ Success`)}`)));
       await sleep(5000);
+      console.log(chalk.YellowBright(`Orang Sabar Disayang Tuhan`));
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
