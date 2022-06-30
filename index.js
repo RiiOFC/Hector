@@ -27,7 +27,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(chalk.yellowBright(`
+  console.log(chalk.yellowBright(chalk.bold(`By : Vicenzo 
 ██╗  ██╗███████╗ ██████╗████████╗ ██████╗ ██████╗
 ██║  ██║██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
 ███████║█████╗  ██║        ██║   ██║   ██║██████╔╝
@@ -47,7 +47,7 @@ ${chalk.bold(chalk.redBright('Wa : 085706058445'))}
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.bgRed(`\r[ ${moment().format('HH:mm:ss')} ] Auth Sudah Expired !`));
+      console.log(chalk.redBright(chalk.bold(`Auth Sudah Expired !`)));
 
     } else if (result.includes('User')) {
 
@@ -69,7 +69,7 @@ ${chalk.bold(chalk.redBright('Wa : 085706058445'))}
 → ${(`Crown : ${crown}`)}
 → ${(`Status : ✔ Success`)}`)));
       await sleep(5000);
-      console.log(chalk.YellowBright(`Orang Sabar Disayang Tuhan`));
+      console.log(chalk.YellowBright(chalk.bold(`Orang Sabar Disayang Tuhan`));
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
