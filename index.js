@@ -60,7 +60,7 @@ ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
       const crown = data.User.Crowns;
 
       console.log(chalk.blueBright(chalk.bold(`\r
-♨  [${moment().format('HH:mm:ss')}] ♨
+${(chalk.redBright('♨')}  [${moment().format('HH:mm:ss')}] ${(chalk.redBright('♨')}
 → ${(`Username : ${username}`)}
 → ${(`Country : ${country}`)}
 → ${(`Pass Star : ${tokenPass}`)}
