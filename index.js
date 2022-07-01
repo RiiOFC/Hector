@@ -13,6 +13,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
     method: 'GET',
     headers: {
       'authorization':auth,
+      'use_response_compression': 'true',
       'Accept-Encoding': 'gzip',
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64))',
     }
@@ -50,6 +51,7 @@ ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
     if (!result) {
 
       console.log(chalk.redBright(chalk.bold(`Auth Sudah Expired !`)));
+      Break
 
     } else if (result.includes('User')) {
 
