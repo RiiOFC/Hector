@@ -69,7 +69,6 @@ ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 → ${(`Crown : ${crown}`)}
 → ${(`Status : ✔ Success`)}`)));
       await sleep(5000);
-      console.log(chalk.redBright(chalk.bold(`Orang Sabar Disayang Tuhan`)));
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
