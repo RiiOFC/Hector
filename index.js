@@ -72,7 +72,7 @@ ${chalk.bold(chalk.redBright('Discord : Vicenzo#3819'))}
 → ${(`Tropy : ${trophy}`)}  
 → ${(`Crown : ${crown}`)}
 → ${(`Status : ✔ Success`)}`)));
-      await sleep(6500);
+      await sleep(6000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your account has been banned`));
